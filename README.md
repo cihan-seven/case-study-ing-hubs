@@ -1,14 +1,14 @@
 README
 
-When the application is started, the schema.sql file runs and creates Customer, Loan nad LoanInstallment DB tables. 
+When the application is started, the schema.sql file runs and creates Customer, Loan and LoanInstallment DB tables. 
 And after creation of the tables, data.sql runs and inserts dummy data to the H2 DB.
 
 
 Also, after initialization of the application "customer" and "admin" users (with the respective passwords "customer", "admin") are created 
 for filtering requests. 
 
-user: customer password: customer role: CUSTOMER
-user: admin password: admin role: ADMIN
+[user: customer password: customer role: CUSTOMER], 
+[user: admin password: admin role: ADMIN]
 
 
 -- The predefined data for the available credit-limit in H2 (Customer-Loan scenario)
